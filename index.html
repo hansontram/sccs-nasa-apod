@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A simple webpage integrating NASA's photo of the day API." />
+    <meta name="keywords" content="one, two, three" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>South Coast Cosmo Society</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>South Coast Cosmos Society</h1>
+    <!-- <h2>Astronomy Photo of the Day</h2> -->
+    <h3>Choose a date below to view NASA's Astronomy Photo of the Day:</h3>
+    <div class="input-contain">
+      <input type="date" name="" value="" />
+      <button type="button" name="button">Get Media</button>
+    </div>
+    <h3 class="explain"></h3>
+
+    <img class="not-visible" src="" alt="" />
+    <iframe class="not-visible"src="" frameborder="0"></iframe>
+    <h5 id="error" class="not-visible"></h5>
+    <h4 id="text"></h4>
+
+    <!-- loading container -->
+    <div class="loader-container not-visible">
+      <div class="spinner"></div>
+  </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
